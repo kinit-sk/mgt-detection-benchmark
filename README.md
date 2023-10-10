@@ -25,6 +25,12 @@ The whole experiments can be run by executing scripts according to their ordinal
 | 05 | Google Colab notebook for results analysis. |
 
 ### Running the Experiments
+Some of the python scripts use global variables to set various directory paths at the top of the files. Ensure the directories exist, by default run:
+```
+mkdir -p cache
+mkdir -p offload_folder
+mkdir -p results
+```
 
 The MULTITuDE dataset can be downloaded from [ToDo]. If downloaded the dataset, continue with the step 4.
 
