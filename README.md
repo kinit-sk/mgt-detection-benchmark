@@ -4,7 +4,7 @@ Source code for replication of the experiments in the paper accepted to the EMNL
 ### Install Dependencies
 The provided Google Colab notebooks are selfcontained; however, the other python scripts have some dependencies to be installed.
 
-Create a conda environment using the provided .yaml file.
+(A more stable option:) Create a conda environment using the provided .yaml file.
 ```
 conda env create --file=multitude.yaml
 conda activate multitude
