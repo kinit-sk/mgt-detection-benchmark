@@ -5,6 +5,11 @@ Source code for replication of the experiments in the paper accepted to the EMNL
 Create a conda environment using the provided .yaml file.
 ```
 conda env create --file=multitude.yaml
+conda activate multitude
+```
+Or at least install the following python modules/packages:
+```
+pip install transformers accelerate bitsandbytes peft langcodes[data] nvidia-ml-py3 openai backoff
 ```
 
 ### Source Code Structure
