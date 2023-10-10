@@ -2,12 +2,14 @@
 Source code for replication of the experiments in the paper accepted to the EMNLP 2023 conference.
 
 ### Install Dependencies
+The provided Google Colab notebooks are selfcontained; however, the other python scripts have some dependencies to be installed.
+
 Create a conda environment using the provided .yaml file.
 ```
 conda env create --file=multitude.yaml
 conda activate multitude
 ```
-Or at least, install the following python modules/packages:
+Or at least, install the following python (>=3.8) modules/packages:
 ```
 pip install transformers accelerate bitsandbytes peft langcodes[data] nvidia-ml-py3 openai backoff
 ```
