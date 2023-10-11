@@ -51,7 +51,7 @@ The MULTITuDE dataset can be downloaded from [ToDo]. If downloaded the dataset, 
    ```
 6. Generate predictions on the whole test split of the dataset for black-box and statistical methods. We do not distribute the code for those, the predictions are available in the results directory. For our hyperparameter-optimized Random Forest predictions using entropy and mGPT base model, run the following code:
    ```
-   python 05_statistical_entropy_rf_hyperparameter_tuning.py
+   python 05_entropy_rf_tuned.py
    ```  
 6. For evaluation of the results, run the provided results analysis [notebook](06_results_analysis.ipynb), which provides various insights and also follows research questions in the paper.
 
