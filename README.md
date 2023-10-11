@@ -22,7 +22,8 @@ The whole experiments can be run by executing scripts according to their ordinal
 | 02 | A script to generate texts from various large language models (HuggingFace pretrained models as well as OpenAI API accessible models). |
 | 03 | A script for fine-tuning of the detectors. |
 | 04 | A script for inference of fine-tuned detection models to obtain predictions. |
-| 05 | Google Colab notebook for results analysis. |
+| 05 | A script for predictions based on statistical entropy detection method with hyperparameter tuning of Random Forest Classifier. |
+| 06 | Google Colab notebook for results analysis. |
 
 ### Running the Experiments
 Some of the python scripts use global variables to set various directory paths at the top of the files. Ensure the directories exist, by default run:
@@ -48,7 +49,11 @@ The MULTITuDE dataset can be downloaded from [ToDo]. If downloaded the dataset, 
    ```
    python 04_test_detector.py "microsoft/mdeberta-v3-base" "en3" "all"
    ```
-6. For evaluation of the results, run the provided results analysis [notebook](05_results_analysis.ipynb), which provides various insights and also follows research questions in the paper.
+6. Generate predictions on the whole test split of the dataset for black-box and statistical methods. We do not distribute the code for those, the predictions are available in the results directory. For our hyperparameter-optimized Random Forest predictions using entropy and mGPT base model, run the following code:
+   ```
+   python 05_statistical_entropy_rf_hyperparameter_tuning.py
+   ```  
+6. For evaluation of the results, run the provided results analysis [notebook](06_results_analysis.ipynb), which provides various insights and also follows research questions in the paper.
 
 ## Cite
 ```bibtex
