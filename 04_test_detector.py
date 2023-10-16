@@ -71,5 +71,5 @@ print(f"{output_model.split('/')[-1]} testing took {(end - start)/60} min")
 print(f"{output_model.split('/')[-1]} memory footprint {classifier.model.get_memory_footprint()/1024/1024/1024} GB")
 report_gpu()
 
-test.to_csv(f"{DATAPATH.replace('multitude.csv','results/')}{output_model.split('/')[-1]}.csv.gz", compression='gzip', index=False)
+test.to_csv(f"{DATAPATH.replace('multitude.csv','results/finetuned/')}{output_model.split('/')[-1]}.csv.gz", compression='gzip', index=False)
 print(classification_report(test['label'], test['predictions'], digits=4))
