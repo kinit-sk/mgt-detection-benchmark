@@ -42,7 +42,7 @@ Some of the python scripts use global variables to set various directory paths a
 ```
 mkdir -p cache
 mkdir -p offload_folder
-mkdir -p results
+mkdir -p results/finetuned/
 ```
 
 The MULTITuDE dataset can be downloaded from [ToDo]. If downloaded the dataset, continue with the step 4. For just analysis of the results, proceed directly to the last step.
