@@ -45,7 +45,7 @@ mkdir -p offload_folder
 mkdir -p results/finetuned/
 ```
 
-The MULTITuDE dataset can be downloaded from [ToDo]. If downloaded the dataset, continue with the step 4. For just analysis of the results, proceed directly to the last step.
+The MULTITuDE dataset can be downloaded from [Zenodo](https://zenodo.org/records/10013755). If downloaded the dataset, continue with the step 4. For just analysis of the results, proceed directly to the last step.
 
 1. For dataset reproduction, run the first part of the provided [notebook](01_dataset_creation.ipynb). This downloads the human-text data, preprocesses them, and subsamples them into to file "MassiveSumm_selected.csv".
 2. For generation of machine texts for titles (headlines) available for human texts, run the script as provided in the example below, which uses GPT-3 model for text generation.
