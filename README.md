@@ -1,8 +1,8 @@
 # MULTITuDE: Large-Scale Multilingual Machine-Generated Text Detection Benchmark
-Source code for replication of the experiments in the paper accepted to the EMNLP 2023 conference. The MULTITuDE dataset can be downloaded from [Zenodo](https://zenodo.org/records/10013755).
+Source code for replication of the experiments in the paper [accepted](https://arxiv.org/abs/2310.13606) to the EMNLP 2023 conference. The MULTITuDE dataset can be downloaded from [Zenodo](https://zenodo.org/records/10013755).
 
 ## Cite
-If you use the data, code, or the information in this repository, cite the following paper, please.
+If you use the data, code, or the information in this repository, cite the following paper, please (also available on [arXiv](https://arxiv.org/abs/2310.13606)).
 ```bibtex
 @inproceedings{
   macko2023multitude,
